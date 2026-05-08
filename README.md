@@ -1,4 +1,4 @@
-# Avaliação — PetCare (Pet Shop)
+# Avaliação — Cuidados com Carinho (Pet Shop)
 
 **Autor:** Insira seu nome aqui
 
