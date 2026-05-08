@@ -1,0 +1,7 @@
+# Ignore delivery zip
+petcare-deliverable*.zip
+.DS_Store
+Thumbs.db
+node_modules/
+.vscode/
+*.log
