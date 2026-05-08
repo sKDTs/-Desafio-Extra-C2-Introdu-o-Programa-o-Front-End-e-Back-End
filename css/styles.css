@@ -1,0 +1,62 @@
+/* Identidade visual e layout */
+:root{
+  --bg:#FBFCFD;
+  --primary:#3B82F6;
+  --accent:#F97316;
+  --muted:#64748B;
+  --card:#FFFFFF;
+  --radius:12px;
+  --container:1100px;
+}
+*{box-sizing:border-box}
+body{font-family:'Poppins',system-ui,Arial,sans-serif;margin:0;background:var(--bg);color:#0F172A;line-height:1.4}
+.container{max-width:var(--container);margin:0 auto;padding:0 20px}
+.header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.site-footer{padding:24px 0;text-align:center;color:var(--muted)}
+/* Hero */
+.hero{background:linear-gradient(180deg,rgba(59,130,246,0.06),transparent);padding:48px 0;position:relative;overflow:visible}
+.hero-inner{display:flex;align-items:center;gap:40px;position:relative}
+.hero-text{flex:1}
+.hero h1{font-family:'Playfair Display',serif;font-size:2.2rem;margin:0 0 12px}
+.hero p{color:var(--muted);margin:0 0 18px}
+.cta-row{display:flex;gap:12px}
+.btn{display:inline-block;padding:10px 16px;border-radius:10px;text-decoration:none;border:2px solid transparent;font-weight:600}
+.btn.primary{background:var(--primary);color:#fff}
+.btn.ghost{background:transparent;color:var(--primary);border-color:var(--primary)}
+.hero-art{width:420px;flex-shrink:0;position:relative}
+.hero-art img{width:100%;height:auto;border-radius:16px;box-shadow:0 8px 30px rgba(17,24,39,0.08);position:relative;z-index:2}
+/* Sobre */
+.sobre{display:flex;gap:36px;align-items:center;padding:56px 0}
+.sobre-content{flex:1}
+.sobre h2{font-size:1.6rem;margin-top:0}
+.indicators{display:flex;gap:18px;margin-top:18px}
+.indicator{background:linear-gradient(180deg,#fff, #fbfbfd);padding:12px 16px;border-radius:10px;box-shadow:0 6px 18px rgba(15,23,42,0.04);min-width:120px;text-align:center}
+.indicator .num{display:block;font-size:1.4rem;color:var(--primary)}
+.sobre-art{width:320px}
+.sobre-art img{width:100%;border-radius:12px}
+/* Serviços */
+.servicos{padding:56px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:18px}
+.card{background:var(--card);padding:12px;border-radius:12px;box-shadow:0 8px 24px rgba(2,6,23,0.04);display:flex;flex-direction:column}
+.card-media{aspect-ratio:4/3;overflow:hidden;border-radius:8px;margin-bottom:12px}
+.card-media img{width:100%;height:100%;object-fit:cover;display:block}
+.card h3{margin:0 0 8px}
+/* Contato */
+.contato{padding:56px 0}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.form-grid .full{grid-column:1/-1}
+label{display:flex;flex-direction:column;color:var(--muted);font-size:0.95rem}
+input,textarea{padding:10px;border-radius:8px;border:1px solid #e6e9ef;margin-top:6px}
+.form-actions{display:flex;gap:12px;margin-top:12px}
+.form-message{margin-top:12px;color:var(--muted)}
+/* Responsivo */
+@media (max-width:900px){
+  .hero-inner{flex-direction:column}
+  .hero-art{width:100%}
+  .sobre{flex-direction:column}
+  .sobre-art{width:100%}
+  .form-grid{grid-template-columns:1fr}
+}
+
+/* Small helpers */
+.hidden{display:none}
