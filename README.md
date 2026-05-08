@@ -1,21 +1,39 @@
 # Avaliação — PetCare (Pet Shop)
 
-Projeto simples para atender aos requisitos da avaliação: estrutura semântica (HTML), estilização (CSS), interatividade (JS) e documentação.
+**Autor:** Insira seu nome aqui
 
-Como abrir
-- Abra o arquivo `index.html` no navegador (duplo-clique ou arraste para a janela do navegador).
+## Descrição
+Pequeno site estático criado como entrega do Desafio Extra C2. A proposta apresenta uma identidade visual amigável e recursos front-end que atendem aos requisitos do curso: HTML semântico, CSS responsivo e interatividade básica em JavaScript.
 
-O que foi implementado
-- Identidade visual: uso de Google Fonts (`Poppins` e `Playfair Display`) e variáveis de cor em `css/styles.css`.
-- Seção de destaque (hero) com imagem sobreposta e CTAs.
-- Seção "Sobre" com layout em grid e indicadores animados.
-- Seção de Serviços com cards visuais e `aspect-ratio` aplicado nas imagens.
-- Seção de Contato com formulário de front-end e validação básica (checa campos obrigatórios e formato de e-mail).
+## Estrutura do projeto
+- `index.html` — página principal (hero, sobre, serviços, contato).
+- `css/styles.css` — estilos, tipografia e variáveis de identidade visual.
+- `js/main.js` — contadores animados e validação do formulário.
+- `images/` — imagens e ícones usados no projeto.
+- `petcare-deliverable.zip` — arquivo de entrega gerado (não incluir em commits públicos).
 
-Notas técnicas
-- As imagens vêm do Unsplash (URLs públicos) para facilitar a avaliação.
-- A validação do formulário é feita no front-end e o envio é simulado.
+## Como visualizar localmente
+1. Abra a pasta do projeto no seu editor ou no Explorador de Arquivos.
+2. Abra `index.html` no navegador (duplo-clique) ou use uma extensão Live Server para recarregamento ao salvar.
 
-Sugestões para expandir
-- Adicionar integração real com backend (enviar por fetch para uma API).
-- Melhorar acessibilidade com labels mais completas e estados de foco visíveis.
+## Funcionalidades implementadas
+- Identidade visual com Google Fonts (`Poppins`, `Playfair Display`) e paleta de cores.
+- Seção de destaque (hero) com chamada para ação (`Agende agora`) e imagem de destaque.
+- Layout responsivo usando Flexbox e CSS Grid.
+- Seção "Sobre" com indicadores animados (`data-target`).
+- Seção "Serviços" com cards e imagens externas (Unsplash) aplicando `aspect-ratio`.
+- Formulário de contato com validação front-end (campos obrigatórios e formato de e-mail) e mensagem de feedback.
+
+## Observações sobre entrega
+- compacte todos os arquivos necessários em um `.zip` (máximo 20 MB) antes de submeter.
+- inclua `README.md` com identificação e instruções (este arquivo).
+
+## Próximos passos sugeridos
+- Integrar envio do formulário a uma API real (fetch/Node/Serverless).
+- Melhorar ARIA e acessibilidade (rótulos, focos, contrastes).
+- Substituir imagens externas por ativos locais se a avaliação exigir arquivo offline.
+
+---
+
+Se quiser, atualizo o campo **Autor** com seu nome e crio um `README` mais detalhado com capturas de tela. 
+
