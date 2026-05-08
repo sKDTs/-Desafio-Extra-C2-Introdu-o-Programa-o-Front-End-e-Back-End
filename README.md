@@ -10,7 +10,7 @@ Pequeno site estático criado como entrega do Desafio Extra C2. A proposta apres
 - `css/styles.css` — estilos, tipografia e variáveis de identidade visual.
 - `js/main.js` — contadores animados e validação do formulário.
 - `images/` — imagens e ícones usados no projeto.
-- `petcare-deliverable.zip` — arquivo de entrega gerado (não incluir em commits públicos).
+- `cuidados-com-carinho.zip` — arquivo de entrega gerado (não incluir em commits públicos).
 
 ## Como visualizar localmente
 1. Abra a pasta do projeto no seu editor ou no Explorador de Arquivos.
